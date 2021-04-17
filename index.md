@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The skeleton of a visualization library
+author: Mathematica
 ---
 
 ### Python

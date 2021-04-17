@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Python bar chart
-author: Eva Ward
+author: "Eva Ward"
 tags: python bar
 ---
 

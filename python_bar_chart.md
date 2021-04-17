@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Bar chart
-author: [Eva Ward](eward@mathematica-mpr.com)
-tags: [python, barchart]
+tags: python barchart
 ---
 
 ![Python bar chart](/images/python_bar_chart.png)

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Python bar chart
-author: "Eva Ward"
-tags: python bar
+author: EW
+tags: python "bar chart"
 ---
 
 ![Python bar chart](/images/python_bar_chart.png)

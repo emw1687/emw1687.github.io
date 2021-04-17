@@ -1,14 +1,15 @@
 ---
 layout: post
-title: Stata box plot
+title: Stata density plot
 author: AD
-tags: stata "box plot"
+tags: stata "density plot"
 ---
 
-![Stata box plot](/images/stata_box_plot.png)
+![Stata density plot](/images/stata_density_plot.png)
 
 
 ```stata
-gr hbox condPctSold if sumCond > 10 & female == 1 [pw = wgt], over(crop_order) graphregion(color(white)) ///
-    ytitle("Share of crop harvest sold (%)")
+tw (histogram pctKept if female==0, width(5) color(none) lcolor(black) lpattern(dash)) ///        
+       (histogram pctKept if female==1, width(5) color(navy%30)), ///   
+       legend(rows(1) order(1 "Male respondent" 2 "Female respondent") region(col(white))) graphregion(color(white))  yla(, angle(0))  xtitle("Share of crop harvest kept for household consumption (%)")
 ```

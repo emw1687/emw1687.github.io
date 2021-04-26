@@ -23,3 +23,8 @@ A crowd-sourced catalog of existing, static data visualizations and the code use
 
 * Viewing window for code is too small - resize so that user does not need to scroll
 * Only include visualizations with MPR colors
+
+## Inspiration and references
+
+* [The Chartmaker Directory](http://chartmaker.visualisingdata.com/)
+* [Stata: Visual overview for creating graphs](https://www.stata.com/support/faqs/graphics/gph/stata-graphs/)

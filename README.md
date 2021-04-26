@@ -1,7 +1,13 @@
 # The skeleton of a visualization library
 
 ## What this is
-A crowd-sourced catalog of existing, static data visualizations and the [R, python, SAS, and Stata] code used to implement them that programmers can add to and reference to learn from each other
+A crowd-sourced catalog of existing, static data visualizations and the code used to implement them that programmers can add to and reference to learn from each other
+
+## Requirements
+* Must support uploading code formatted by language [R, python, SAS, and Stata]
+* Must support uploading images
+* Must be easy to contribute (assuming knowledge of git)
+* Must be available to internal staff
 
 ## What this (currently) isn't
 * A "plug-and-play" catalog of standardized visualization templates that can be used across languages and projects
